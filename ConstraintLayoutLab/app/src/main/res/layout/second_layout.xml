@@ -47,6 +47,7 @@
         android:text="SIGN IN"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         tools:layout_editor_absoluteY="264dp"
         tools:layout_editor_absoluteX="29dp"
         android:id="@+id/button3"
