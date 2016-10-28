@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="384dp"
+        android:layout_height="125dp"
+        app:srcCompat="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="41dp"
+        android:inputType="textPersonName"
+        android:text="Account Name"
+        android:ems="10"
+        tools:layout_editor_absoluteY="146dp"
+        tools:layout_editor_absoluteX="29dp"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="41dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        tools:layout_editor_absoluteY="198dp"
+        tools:layout_editor_absoluteX="29dp"
+        android:id="@+id/editText2"
+        android:text="Enter Password" />
+
+    <TextView
+        android:text="Need help with your ID, passcode or enrollment?"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteY="353dp"
+        tools:layout_editor_absoluteX="45dp"
+        android:id="@+id/textView9" />
+
+    <Button
+        android:text="SIGN IN"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="264dp"
+        tools:layout_editor_absoluteX="29dp"
+        android:id="@+id/button3"
+        android:background="@color/colorPrimary"/>
+
+    <ImageButton
+        android:layout_width="158dp"
+        android:layout_height="94dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteY="401dp"
+        tools:layout_editor_absoluteX="34dp"
+        android:id="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="158dp"
+        android:layout_height="94dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteY="401dp"
+        tools:layout_editor_absoluteX="201dp"
+        android:id="@+id/imageButton3" />
+
+</android.support.constraint.ConstraintLayout>
