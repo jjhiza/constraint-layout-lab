@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:color/holo_green_light"
+        tools:layout_editor_absoluteY="72dp"
+        android:id="@+id/imageButton4"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        tools:layout_editor_absoluteY="455dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/toolbar" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="88dp"
+        android:id="@+id/spinner" />
+
+    <TextView
+        android:text="ALL COURSES"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="32dp"
+        tools:layout_editor_absoluteX="6dp"
+        android:id="@+id/textView10" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="120dp"
+        android:id="@+id/progressBar"
+        tools:layout_editor_absoluteX="134dp" />
+
+    <TextView
+        android:text="TextView"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="143dp"
+        android:id="@+id/textView11"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:text="Author Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="95dp"
+        tools:layout_editor_absoluteX="143dp"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:text="Percent Completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="147dp"
+        android:id="@+id/textView13"
+        app:layout_constraintLeft_toLeftOf="@+id/progressBar" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:color/holo_green_dark"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageButton5"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar" />
+
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        android:id="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="@+id/textView14"
+        app:layout_constraintRight_toRightOf="@+id/toolbar" />
+
+    <TextView
+        android:text="Lesson Name"
+        android:background="#ff797474"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="100dp"
+        android:id="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+
+</android.support.constraint.ConstraintLayout>
